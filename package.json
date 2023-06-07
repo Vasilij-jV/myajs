@@ -1,0 +1,28 @@
+{
+  "name": "myajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vasilij-jV/myajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vasilij-jv/ajs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
+  }
+}
